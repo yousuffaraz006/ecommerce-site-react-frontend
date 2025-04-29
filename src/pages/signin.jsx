@@ -64,6 +64,19 @@ function SignIn() {
             type={"button"}
           />
         </div>
+        <div className="mt-4 text-blue-500 cursor-pointer group">
+          <p>
+            Wanna try a demo account? 
+            <br />
+            <span className="text-sm text-gray-500 group-hover:inline-block hidden">
+              Username: demouser
+            </span>
+            <br />
+            <span className="text-sm text-gray-500 group-hover:inline-block hidden group-checked:inline-block">
+              Password: abcdefgh
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   );
