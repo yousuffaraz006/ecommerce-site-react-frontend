@@ -8,7 +8,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 export const ContextComponent = createContext(null);
 function ProviderComponent({ children }) {
-  const startUrl = "http://127.0.0.1:8000";
+  const startUrl = "https://shopsite.pythonanywhere.com";
   const [user, setUser] = useState("");
   const [isAuthorized, setIsAuthorized] = useState(null);
   const [loading, setLoading] = useState("");
