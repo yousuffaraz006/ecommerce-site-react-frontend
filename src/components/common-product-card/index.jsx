@@ -9,7 +9,6 @@ import {
 } from "../ui/card";
 import { useContext, useEffect, useState } from "react";
 import { ContextComponent } from "@/context";
-import api from "@/api";
 import { ACCESS_TOKEN } from "@/constants";
 import axios from "axios";
 
@@ -100,7 +99,6 @@ function CommonProductCard({ produc }) {
         }
       );
       setProductImg(apiResponse.data.prodimg);
-      console.log(apiResponse.data.prodimg);
       setProductName(apiResponse.data.name);
       setProductRate(apiResponse.data.rate);
       setProductDesc(apiResponse.data.description);

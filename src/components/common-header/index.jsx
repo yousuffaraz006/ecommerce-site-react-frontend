@@ -44,7 +44,7 @@ function Header() {
     });
   }
   const userimg =
-    group === "customer" ? cusImg : "/media/base/images/admin.png";
+    group === "customer" ? cusImg : "/static/base/admin.png";
   const username = group === "customer" ? cusName : "Admin";
   const profileImg = `${startUrl}${userimg}`;
   return (
